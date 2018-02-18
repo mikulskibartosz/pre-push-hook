@@ -31,3 +31,8 @@ cp pre-push.py ~/git-global-hooks/pre-push
 chmod u+x ~/git-global-hooks/pre-push
 git config --global core.hooksPath /Users/username/git-global-hooks/
 ```
+## How to remove the global hook
+
+```sh
+git config --global --unset core.hooksPath
+```
